@@ -10,6 +10,9 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile22`, function (sprite, 
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile13`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level7`)
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile25`, function (sprite, location) {
+    tiles.setCurrentTilemap(tilemap`level7`)
+})
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile9`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level7`)
 })
@@ -35,6 +38,9 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile8`, function (sprite, l
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile10`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level0`)
     tiles.placeOnRandomTile(imposter, assets.tile`myTile0`)
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile23`, function (sprite, location) {
+    tiles.setCurrentTilemap(tilemap`level29`)
 })
 let imposter: Sprite = null
 tiles.setCurrentTilemap(tilemap`level1`)
