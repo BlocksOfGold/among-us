@@ -1,8 +1,10 @@
 {
-    "name": "Among Us Remake Kat",
+    "name": "Among Us Remake Kat - Copy",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "mouse": "*"
     },
     "files": [
         "main.blocks",
@@ -18,7 +20,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.10.36",
+        "target": "1.11.37",
         "targetId": "arcade"
     },
     "supportedTargets": [
